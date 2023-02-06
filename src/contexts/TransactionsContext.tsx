@@ -26,17 +26,17 @@ export function TransactionProvider({ children }: TransactionProviderProps) {
 
   async function fetchTransactions(query?: string) {
     const url = new URL('http://localhost:3333/transactions')
-    
-    if (query) { 
+
+    if (query) {
       url.searchParams.append('q', query);
     }
-    
+
     const response = await fetch(url);
     const data = await response.json();
 
     setTransaction(data);
   }
-  
+
   useEffect(() => {
     fetchTransactions();
   }, [])

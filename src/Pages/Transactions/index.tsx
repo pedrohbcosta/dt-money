@@ -13,9 +13,9 @@ export function Transactions() {
     <div>
       <Header/>
       <Summary/>
-    
+
       <TransactionContainer>
-        
+
         <SearchForm/>
 
         <TransactionTable>
@@ -36,7 +36,7 @@ export function Transactions() {
             </tr>
               )
             })}
-            
+
           </tbody>
         </TransactionTable>
       </TransactionContainer>

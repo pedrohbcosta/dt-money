@@ -9,9 +9,9 @@ export function Header() {
     <HeaderContainer>
       <HeaderContent>
         <img src={ dtLogo } alt="" />
-        
+
         <Dialog.Root>
-          
+
           <Dialog.Trigger asChild>
             <NewTransactionButton>Nova transação</NewTransactionButton>
           </Dialog.Trigger>
