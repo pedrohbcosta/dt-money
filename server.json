@@ -15,6 +15,14 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-02-01T20:15:59.928Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "category": "Venda",
+      "price": 5000,
+      "type": "income",
+      "createdAt": "2023-02-06T21:57:30.770Z",
+      "id": 3
     }
   ]
 }
